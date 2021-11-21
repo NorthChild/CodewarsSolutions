@@ -1,13 +1,29 @@
 ﻿using System;
 using System.Linq;
+using CodeWarsSolutions.Interfaces;
+using CodeWarsSolutions.Objects;
+
 
 namespace CodeWarsSolutions
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            RentalCalculator Calculator = new RentalCalculator();
+            //Console.WriteLine(Calculator.TotalPriceAfterDiscount(1));
+            
+            BMICalculator bmiCalc = new BMICalculator();
+            //Console.WriteLine(bmiCalc.BMIValue(80, 1.80));
+
+
+
+
+
+
         }
     }
+
 }
+
